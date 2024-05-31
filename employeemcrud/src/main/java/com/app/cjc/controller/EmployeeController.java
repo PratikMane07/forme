@@ -26,4 +26,10 @@ public class EmployeeController {
 		return re;
 	}
 
+	@GetMapping("/allEmployee")
+	public List<Employee> getAllEmployee()
+	{
+		
+	}
+
 }
